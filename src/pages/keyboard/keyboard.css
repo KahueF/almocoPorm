@@ -1,0 +1,43 @@
+body {
+    background-color: #E7E7E7;
+    font-family: 'Mukta', sans-serif;
+}
+
+.divCpf {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+
+input {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.numeric-keypad {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  
+  button {
+    margin: 15px;
+    padding: 60px;
+    font-size: 70px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }

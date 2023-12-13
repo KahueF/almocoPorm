@@ -1,0 +1,96 @@
+.background {
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.425);
+
+}
+
+.lateralMenu {
+    position: absolute;
+    top:0px;
+    bottom:0;
+    width: 66%;
+    color:rgb(0, 0, 0);
+    background-color: #CCC;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hiddenMenu {
+    width: 1px;
+    height: 1px;
+    transition: .2s;
+    overflow: hidden;
+}
+
+.divHeader2 {
+    display:flex;
+    flex-direction: column;
+    padding-top: 6%;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+
+.divHeader2 section {
+    width: 80%;
+}
+
+.divHeader2 h1 {
+    color: #000;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 122.023%; /* 58.571px */
+letter-spacing: 5.28px;
+}
+
+.iconMenu {
+    width: 90px;
+    height: 90px;
+}
+
+.divMenuFooter {
+    width: 90%;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.divMenuFooter p {
+font-size: 32px;
+font-weight: 400;
+line-height: 50.023%;
+letter-spacing: 2.64px;
+}
+
+.divMenuFooter section {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.divIconFooter {
+    display:flex;
+    flex-direction: row;
+}
+
+.divIconFooter a {
+color: #000;
+text-decoration: none;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 122.023%;
+letter-spacing: 4.4px;
+}
+
+.iconFooter {
+    width: 50px;
+    height: 50px;
+}

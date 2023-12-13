@@ -1,0 +1,123 @@
+.header {
+    width: 96%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    background-color: #E7E7E7;
+}
+
+.span_image {
+    height: auto;
+    width: 8%;
+    padding-left: 3%;
+    cursor: pointer;
+}
+
+.image {
+    height: auto;
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.containerButton {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #031804;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    align-items: center;
+    flex-direction: column;
+    transition: .1;
+    -webkit-box-shadow: inset 0px -32px 0px 0px #08660079;
+    -moz-box-shadow: inset 0px -32px 0px 0px #08660063;
+    box-shadow: inset 0px -32px 0px 0px #08660060;
+}
+
+
+.containerImage {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .25s;
+}
+
+.portal {
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
+}
+
+.containerText {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-principal {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 172.023%;
+    letter-spacing: 7.04px;
+}
+
+.text-ajustes {
+    margin-top: -3%;
+}
+
+
+.iconsFooter {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.iconsFooter img {
+    width: 160px;
+    height: 120px;
+}
+
+.iconeFooter {
+    width: 5rem;
+    height: 5rem;
+}
+
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textFooter p {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5.04px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 1px;
+}
